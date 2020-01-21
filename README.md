@@ -22,6 +22,7 @@ Twitter is where the Arab world goes to vent, under hidden anonymous names off c
 The project was done on Jupyter Notebook and Python 3.0, below are the libraries used:
 1. Tweepy
 2.TextBlob
+3. NLTK
 
 <b> Summary </b>
 To create a Arabic sentiment analyser, using tweepy to connect and then using TextBlob to translate the text data coming into the API. The function created takes in from the user a name or hastag and then the API return the results. The results are returned in json format. Not all attributes of the data are taken. The attributes that reflect the sentiment are retrieved like retweet count, favourite count. Also note that TextBlob can easily translate many Arabic to English words. But when the Arabic words are localized, TextBlob cant know what the word means in English. TextBlob also has sentiment polarity for each word in English. Hence when the word is translated from Arabic to English, then we can use the sentiment polarity to assign a number from 1 to 0. One being positive, and 0.5 neutral, and 0 as negative.   
@@ -31,5 +32,5 @@ After creating some functions and trying out different data attributes from the 
 
 <b>Acknowledgments and thanks</b>
 Thanks to Tweeter API team, and not thinking i am some rouge Arabic government going after its citizens.
-Also thanks to the great mods of Tweepy and TextBlob. 
+Also thanks to the great mods of Tweepy, NLTK and TextBlob. 
 
