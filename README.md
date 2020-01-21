@@ -21,7 +21,7 @@ Twitter is where the Arab world goes to vent, under hidden anonymous names off c
 
 The project was done on Jupyter Notebook and Python 3.0, below are the libraries used:
 1. Tweepy
-2.TextBlob
+2. TextBlob
 3. NLTK
 
 <b> Summary </b>
